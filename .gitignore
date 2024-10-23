@@ -1,0 +1,32 @@
+# Environment variables and Poetry lock file
+.env
+poetry.lock
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS-specific files
+.DS_Store
+
+# Media and static files
+media/
+static/
+
+# Virtual environments
+venv/
+.venv/
+
+# Log files
+*.log
+
+# Database migration files (if using a tool like Alembic)
+migrations/
+
+# Docker-related files (optional, adjust as necessary)
+Dockerfile.*
+docker-compose.*
+
+# SSL certificates (make sure not to commit sensitive keys)
+cert.pem
+key.pem
